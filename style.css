@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: 'handlee', cursive;
+}
+
+.emoji {
+    font-size: 37.5px;
+}
+
+#Webcam{
+    border: darkorange solid 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.cyan{
+    color: cyan;
+}
+
+.Emojis{
+    font-size: 100px;
+    width: 350px;
+    border-color: lightsalmon;
+    border-style: dotted;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.Div {
+    display: inline-block;
+}
+
+#Think {
+    width: 1100;
+    border-color: lightsalmon;
+    border-style: dotted;
+}
+
+.ans {
+    width: 350px;
+    border-color: lightgreen;
+    border-style: dotted;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.response{
+    color: lightskyblue;
+    font-size: 50;
+}
