@@ -4,8 +4,10 @@
     <title>Great Gestures!</title>
 
     <!--Bootstrap Links!-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--Google Font Links!-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,8 +35,8 @@
         <!--Line 2-->
         <Div class="Div">
             <div class="Emojis"> &#129309;&#127996;</div><br>
-            <Div id="Webcam">Your WebCam View</Div><Br>
-            <div class="Emojis"> &#9997;&#127998;</div><br>
+            <Div id="Webcam"></Div><Br>
+            <div class="Emojis">&#9997;&#127998;</div><br>
         </Div>
         <!--Line 3 [Easy]-->
         <Div class="Div">
@@ -46,10 +48,33 @@
         <!--Line 4 [Easy]-->
         <Br>
         <div id="Think">
-            <div class="Emojis Div ans" id="P1">Prediction-1</div>
-            <h3 class="Div response">Predictions</h3>
-            <div class="Emojis Div ans" id="P2">Prediction-2</div>
+            <button class="response Div" onclick="ClickPic()">Click My Picture</button>
+            <div class="Div">
+                <h3 class="response">Prediction</h3>
+                <br>
+                <div class="Emojis ans Div" id="Prediction"></div>
+            </div>
+            <div class="Div">
+                <br>
+                <button type="button" data-toggle="modal" data-target="#myModal" class="response">
+                  View  My Picture
+                </button>
+            </div>
         </div>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body" id="Pic">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
     </center>
 
     <!--Linking Js Here As Of WebCam-->
